@@ -56,17 +56,17 @@ body {
 }
 
 
-.header__menu-toggle:hover > div:nth-child(2) {
+.header__menu-toggle.opened > div:nth-child(2) {
 	display: none;
 }
 
-.header__menu-toggle:hover > div:nth-child(1) {
+.header__menu-toggle.opened > div:nth-child(1) {
 	transform:translateX(-50%) rotate(45deg);
 	top:50%;
 	transition:0.3s;
 }
 
-.header__menu-toggle:hover > div:nth-child(3) {
+.header__menu-toggle.opened > div:nth-child(3) {
 	transform:translateX(-50%) rotate(-45deg);
 	top:50%;
 	transition:0.3s;
