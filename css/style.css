@@ -9,6 +9,7 @@ body {
 	max-width: 1600px;
 }
 .header {
+	position: relative;
 	background-color: #221f1f;
 	height:72px;
 	color:#fff;
@@ -302,13 +303,18 @@ body {
 .slide__menu{
 	background: #f00;
 	width: 300px;
+	height: 100vh;
+	left: 0;
+	top: 0;
 	position: fixed;
 	z-index: 10;
-	box-shadow: 0 0 1px #000;
+	box-shadow: 0 0 12px 0 #000;
 	transform: translateX(-100%);
+	transition: 0.3s;
 }
 .slide__menu.opened{
 	transform: translateX(0%);
+	transition: 0.3s;
 }
 .home__catalog ul{
 	padding: 10px;
