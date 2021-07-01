@@ -14,6 +14,7 @@ body {
 	color:#fff;
 	display: flex;
 	align-items:center;
+	z-index: 20;
 }
 .header > .container {
 	display: flex;
@@ -297,6 +298,17 @@ body {
 	width: 300px;
 	min-width: 300px
 
+}
+.slide__menu{
+	background: #f00;
+	width: 300px;
+	position: fixed;
+	z-index: 10;
+	box-shadow: 0 0 1px #000;
+	transform: translateX(-100%);
+}
+.slide__menu.opened{
+	transform: translateX(0%);
 }
 .home__catalog ul{
 	padding: 10px;
