@@ -302,6 +302,7 @@ body {
 	min-height: 100px;
 	width: calc(100% - 300px);
 	min-width: calc(100% - 300px);
+	margin-left: 20px;
 }
 
 .d-flex

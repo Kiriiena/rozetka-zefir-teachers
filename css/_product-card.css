@@ -46,10 +46,19 @@
 .product-card .thumb .add-to-favourites svg {
 	
 	height: 20px;
-	width: 17px;
+	width: 20px;
 	fill: #ffa900;
 	
 	
+}
+.product-card .thumb .add-to-favourites svg.filled {
+	display: none;
+	}
+.product-card .thumb .add-to-favourites.in-favourites svg {
+	display: none;
+}
+.product-card .thumb .add-to-favourites.in-favourites svg.filled {
+	display: inline-block;
 }
 .product-card .title {
 	font-size: 14px;

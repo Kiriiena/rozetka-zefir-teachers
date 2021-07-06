@@ -54,6 +54,7 @@
 </g>
 
 </svg>
+<svg id="heart_fill" enable-background="new 0 0 512 512"  viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><path d="m471.475 276.804h-.014c126.648-151.82-71.842-329.06-206.381-212.102-5.342 4.643-13.278 4.796-18.693.238-145.204-122.257-328.706 71.942-206.27 211.864 2.147 2.245 131.738 137.698 188.999 197.55 14.54 15.197 38.81 15.195 53.35-.002 56.721-59.284 184.114-192.433 189.009-197.548z"/></svg>
 </div>
 <div class="wrapper">
 	<header class="header">
@@ -122,7 +123,7 @@
 				</a>
 				<a href="#" id="favourites">
 					<img src="img/favourite.svg" alt="Обрані">
-					<span>3</span>
+					<span class="empty">0</span>
 				</a>
 				<a href="#" id="cart">
 					<img src="img/shopping-cart.svg" alt="Кошик">
@@ -148,10 +149,38 @@
 					<ul>
 						<li class="product-card home__product-list-card">
 							<div class="thumb">
-								<button class="add-to-favourites">
+								<button data-id="1" class="add-to-favourites">
 									<svg> 
 										<use href="#heart"></use>
 
+									</svg>
+									<svg class="filled"> <use href="#heart_fill"></use>
+									</svg>
+
+
+								</button>
+
+								<a href="">
+									<img src="https://content1.rozetka.com.ua/goods/images/preview/11018921.jpg" alt="">
+								</a>
+							</div>
+							<a href="#" class="title">Пральний порошок Tide Дитячий 6 кг </a>
+							<div class="old-price">345
+							</div>
+							<div class="price">199
+							</div>
+							<div class="availability">
+								Немає в наявності
+							</div>
+						</li>
+							<li class="product-card home__product-list-card">
+							<div class="thumb">
+								<button data-id="2" class="add-to-favourites">
+									<svg> 
+										<use href="#heart"></use>
+
+									</svg>
+									<svg class="filled"> <use href="#heart_fill"></use>
 									</svg>
 
 								</button>
@@ -171,10 +200,12 @@
 						</li>
 							<li class="product-card home__product-list-card">
 							<div class="thumb">
-								<button class="add-to-favourites">
+								<button data-id="3" class="add-to-favourites">
 									<svg> 
 										<use href="#heart"></use>
 
+									</svg>
+									<svg class="filled"> <use href="#heart_fill"></use>
 									</svg>
 
 								</button>
@@ -194,10 +225,12 @@
 						</li>
 							<li class="product-card home__product-list-card">
 							<div class="thumb">
-								<button class="add-to-favourites">
+								<button data-id="4" class="add-to-favourites">
 									<svg> 
 										<use href="#heart"></use>
 
+									</svg>
+									<svg class="filled"> <use href="#heart_fill"></use>
 									</svg>
 
 								</button>
@@ -217,10 +250,12 @@
 						</li>
 							<li class="product-card home__product-list-card">
 							<div class="thumb">
-								<button class="add-to-favourites">
+								<button data-id="5" class="add-to-favourites">
 									<svg> 
 										<use href="#heart"></use>
 
+									</svg>
+									<svg class="filled"> <use href="#heart_fill"></use>
 									</svg>
 
 								</button>
@@ -240,33 +275,12 @@
 						</li>
 							<li class="product-card home__product-list-card">
 							<div class="thumb">
-								<button class="add-to-favourites">
+								<button data-id="6" class="add-to-favourites">
 									<svg> 
 										<use href="#heart"></use>
 
 									</svg>
-
-								</button>
-
-								<a href="">
-									<img src="https://content1.rozetka.com.ua/goods/images/preview/11018921.jpg" alt="">
-								</a>
-							</div>
-							<a href="#" class="title">Пральний порошок Tide Дитячий 6 кг </a>
-							<div class="old-price">345
-							</div>
-							<div class="price">199
-							</div>
-							<div class="availability">
-								Немає в наявності
-							</div>
-						</li>
-							<li class="product-card home__product-list-card">
-							<div class="thumb">
-								<button class="add-to-favourites">
-									<svg> 
-										<use href="#heart"></use>
-
+									<svg class="filled"> <use href="#heart_fill"></use>
 									</svg>
 
 								</button>
